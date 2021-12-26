@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Intetent_implicity2_RND">
+    <EditText
+        android:id="@+id/et_phn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:text="Enter phone no" />
+    <Button
+        android:id="@+id/bt_camera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Camera"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="97dp" />
+
+    <Button
+        android:id="@+id/bt_contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="160dp" />
+
+    <Button
+        android:id="@+id/bt_browser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Browser"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="233dp" />
+
+    <Button
+        android:id="@+id/bt_gallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gallery"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="306dp" />
+
+    <Button
+        android:id="@+id/bt_dialpad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dial Pad"
+        tools:layout_editor_absoluteX="164dp"
+        tools:layout_editor_absoluteY="306dp" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+       android:src="@drawable/any"
+        />
+
+
+    <!--    <Button-->
+<!--        android:id="@+id/button6"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Button"-->
+<!--        tools:layout_editor_absoluteX="164dp"-->
+<!--        tools:layout_editor_absoluteY="306dp" />-->
+</LinearLayout>
